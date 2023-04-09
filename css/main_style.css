@@ -1,0 +1,31 @@
+body {
+    background-color: lightskyblue;
+    color: white;
+    font-style: oblique;
+    outline: black dotted 2pt;
+}
+div, .welcome {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 50pt;
+    font-size: 18pt;
+}
+.biography {
+    display: flex;
+    justify-content: space-between;
+}
+.study {
+    margin-left: 15%;
+}
+.hobby {
+    margin-right: 15%;
+}
+.dev_info {
+    margin-top: 100pt;
+    text-align: center;
+    font-size: 15pt;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
