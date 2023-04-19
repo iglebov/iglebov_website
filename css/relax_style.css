@@ -23,3 +23,29 @@ body {
     background: #a870d9; 
     justify-content: center;
 }
+.free_time, .name, .about, .watching {
+    color: #ffffff;
+    block-size: 200px;
+    display: flex;
+    align-items: center;
+}
+.free_time {
+    background: #34b423; 
+    align-content: center;
+    justify-content: center;
+}
+.watching, .reading, .playing {
+    block-size: 500px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+.watching {
+    background-image: url("../videos/.mp4");
+}
+.reading {
+    background-image: url("../videos/.mp4");
+}
+.playing {
+    background-image: url("../videos/.mp4");
+}

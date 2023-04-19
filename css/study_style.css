@@ -5,6 +5,13 @@ body {
     font-size: 75pt;
     font-style: normal;
 }
+img {
+    width: 160pt;
+    height: 160pt;
+}
+td {
+    text-align: center;
+}
 .back, .dev_info {
     color: #ffffff;
     block-size: 200px;
@@ -16,7 +23,7 @@ body {
     justify-content: start;
     padding-left: 135px;
 }
-.study_info, .about_study {
+.study_info, .about_study, .about_schedule {
     text-align: center;
     line-height: 50pt;
     font-size: 18pt;
@@ -26,7 +33,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.about_study {
+.about_study, .about_schedule, table {
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -47,10 +54,6 @@ body {
 }
 .ebm6 {
     margin-right: 15%;
-}
-img {
-    width: 160pt;
-    height: 160pt;
 }
 .dev_info {
     background: #a870d9; 
