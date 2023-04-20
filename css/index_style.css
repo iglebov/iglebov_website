@@ -5,28 +5,28 @@ body {
     font-size: 75pt;
     font-style: normal;
 }
-.hi, .name, .about, .dev_info {
+#hi, #name, #about, #dev_info {
     color: #ffffff;
     block-size: 200px;
     display: flex;
     align-items: center;
 }
-.hi {
+#hi {
     background: #3678f4; 
     justify-content: start;
     padding-left: 135px;
 }
-.name {
+#name {
     background: #d779d7; 
     justify-content: end;
     padding-right: 135px;
 }
-.about {
+#about {
     background: #65db9c; 
     justify-content: center;
     font-size: 75pt;
 }
-.study, .relax, .hobby {
+#study, #relax, #hobby {
     background-repeat: no-repeat;
     background-size: 430px;
     block-size: 400px;
@@ -37,16 +37,16 @@ body {
     padding-right: 340px;
     font-size: 75pt;
 }
-.study {    
+#study {    
     background-image: url("../img/study.jpg");
 }
-.relax {    
+#relax {    
     background-image: url("../img/relax.jpg");
 }
-.hobby {    
+#hobby {    
     background-image: url("../img/hobby.jpg");
 }
-.about {
+#about {
     background: #65db9c; 
     color: white;
     block-size: 200px;
@@ -54,16 +54,16 @@ body {
     justify-content: center;
     font-size: 75pt;
 }
-.a_study {
+#a_study {
     color: #dca830;
 }
-.a_relax {
+#a_relax {
     color: #76eb8c;
 }
-.a_hobby {
+#a_hobby {
     color: #ed7bc1;
 }
-.dev_info {
+#dev_info {
     background: #a870d9; 
     justify-content: center;
 }

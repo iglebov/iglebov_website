@@ -5,47 +5,47 @@ body {
     font-size: 75pt;
     font-style: normal;
 }
-.back, .dev_info {
+#back, #dev_info {
     color: #ffffff;
     block-size: 200px;
     display: flex;
     align-items: center;
 }
-.back {
+#back {
     background: #3678f4; 
     justify-content: start;
     padding-left: 135px;
 }
-.a_back {
+#a_back {
     color: #ffffff;
 }
-.dev_info {
+#dev_info {
     background: #a870d9; 
     justify-content: center;
 }
-.free_time, .name, .about, .watching {
+#free_time, #name, #about, #watching {
     color: #ffffff;
     block-size: 200px;
     display: flex;
     align-items: center;
 }
-.free_time {
+#free_time {
     background: #34b423; 
     align-content: center;
     justify-content: center;
 }
-.watching, .reading, .playing {
+#watching, #reading, #playing {
     block-size: 500px;
     justify-content: center;
     background-repeat: no-repeat;
     background-size: 1500px;
 }
-.watching {
+#watching {
+    background-image: url("../videos/tr.mp4");
+}
+#reading {
     background-image: url("../videos/.mp4");
 }
-.reading {
-    background-image: url("../videos/.mp4");
-}
-.playing {
+#playing {
     background-image: url("../videos/.mp4");
 }

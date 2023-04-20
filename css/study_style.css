@@ -12,50 +12,50 @@ img {
 td {
     text-align: center;
 }
-.back, .dev_info {
+#back, #dev_info {
     color: #ffffff;
     block-size: 200px;
     display: flex;
     align-items: center;
 }
-.back {
+#back {
     background: #3678f4; 
     justify-content: start;
     padding-left: 135px;
 }
-.study_info, .about_study, .about_schedule {
+#study_info, #about_study, #about_schedule {
     text-align: center;
     line-height: 50pt;
     font-size: 18pt;
 }
-.study_info {
+#study_info {
     block-size: 350px;
     display: flex;
     justify-content: space-between;
 }
-.about_study, .about_schedule, table {
+table, #about_study, #about_schedule {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.a_university {
+#a_university {
     color: #d6a32a;
 }
-.a_faculty {
+#a_faculty {
     color: #384595;
 }
-.a_department {
+#a_department {
     color: #1851ee;
 }
-.a_back {
+#a_back {
     color: #ffffff;
 }
-.bauman {
+#bauman {
     margin-left: 15%;
 }
-.ebm6 {
+#ebm6 {
     margin-right: 15%;
 }
-.dev_info {
+#dev_info {
     background: #a870d9; 
     justify-content: center;
 }
