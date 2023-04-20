@@ -20,11 +20,14 @@ img {
     justify-content: center;
 }
 #poetry {
+    margin-top: 20px;
     background:linear-gradient(#1b6a36, #1fe99f);
 }
 #programming_video {
-    background-image: url("../videos/.mp4");
-    block-size: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url("../videos/programming.mp4");
+    block-size: 900px;
     justify-content: center;
     background-repeat: no-repeat;
     background-size: 1500px;
@@ -52,8 +55,8 @@ img {
     font-size: 16pt;
     font-style: italic;
     box-shadow: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border: 2px solid #3e3a3a;
 }
 #dark_night {

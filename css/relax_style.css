@@ -23,7 +23,7 @@ body {
     background: #a870d9; 
     justify-content: center;
 }
-#free_time, #name, #about, #watching {
+#free_time, #name, #about, #making_videos, #painting {
     color: #ffffff;
     block-size: 200px;
     display: flex;
@@ -34,18 +34,15 @@ body {
     align-content: center;
     justify-content: center;
 }
-#watching, #reading, #playing {
+#making_videos, #painting {
     block-size: 500px;
     justify-content: center;
     background-repeat: no-repeat;
     background-size: 1500px;
 }
-#watching {
-    background-image: url("../videos/tr.mp4");
+#making_videos {
+    background-image: url("../videos/making_videos.mp4");
 }
-#reading {
-    background-image: url("../videos/.mp4");
-}
-#playing {
-    background-image: url("../videos/.mp4");
+#painting {
+    background-image: url("../videos/painting.mp4");
 }
