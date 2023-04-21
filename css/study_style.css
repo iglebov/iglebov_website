@@ -9,9 +9,6 @@ img {
     width: 160pt;
     height: 160pt;
 }
-td {
-    text-align: center;
-}
 #back, #dev_info {
     color: #ffffff;
     block-size: 200px;
@@ -23,7 +20,8 @@ td {
     justify-content: start;
     padding-left: 135px;
 }
-#study_info, #about_study, #about_schedule {
+#study_info, #about_study {
+    margin-top: 20px;
     text-align: center;
     line-height: 50pt;
     font-size: 18pt;
@@ -32,10 +30,6 @@ td {
     block-size: 350px;
     display: flex;
     justify-content: space-between;
-}
-table, #about_study, #about_schedule {
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 #a_university {
     color: #d6a32a;
