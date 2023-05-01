@@ -41,8 +41,8 @@ body {
     background-size: 1500px;
 }
 #making_videos {
-    background-image: url("../videos/making_videos.mp4");
+    background-image: url("../img/making_videos.png");
 }
 #painting {
-    background-image: url("../videos/painting.mp4");
+    background-image: url("../img/painting.png");
 }

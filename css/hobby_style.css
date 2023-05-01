@@ -26,7 +26,7 @@ img {
 #programming_video {
     margin-top: 20px;
     margin-bottom: 20px;
-    background-image: url("../videos/programming.mp4");
+    background-image: url("../img/programming.png");
     block-size: 900px;
     justify-content: center;
     background-repeat: no-repeat;
