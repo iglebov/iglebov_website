@@ -26,7 +26,7 @@ body {
     justify-content: center;
     font-size: 75pt;
 }
-#study, #relax, #hobby {
+#study, #relax, #hobby, #contacts {
     background-repeat: no-repeat;
     background-size: 430px;
     block-size: 400px;
@@ -46,6 +46,9 @@ body {
 #hobby {    
     background-image: url("../img/hobby.jpg");
 }
+#contacts {    
+    background-image: url("../img/contacts.jpg");
+}
 #about {
     background: #65db9c; 
     color: white;
@@ -62,6 +65,9 @@ body {
 }
 #a_hobby {
     color: #ed7bc1;
+}
+#a_contacts {
+    color: #123eac;
 }
 #dev_info {
     background: #a870d9; 

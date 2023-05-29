@@ -20,12 +20,9 @@ img {
     justify-content: center;
 }
 #poetry {
-    margin-top: 20px;
     background:linear-gradient(#1b6a36, #1fe99f);
 }
 #programming_video {
-    margin-top: 20px;
-    margin-bottom: 20px;
     background-image: url("../img/programming.png");
     block-size: 900px;
     justify-content: center;
@@ -54,9 +51,7 @@ img {
     line-height: 30pt;
     font-size: 16pt;
     font-style: italic;
-    box-shadow: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    box-shadow: 20px;   
     border: 2px solid #3e3a3a;
 }
 #dark_night {
