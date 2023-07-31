@@ -5,6 +5,18 @@ body {
     font-size: 75pt;
     font-style: normal;
 }
+img {
+    outline: 1px solid #000000;
+    outline-offset: 1px;
+    width: 100pt;
+    height: 50pt;
+    margin-right: 1pt;
+}
+#localization {
+    color: #d27f7f;
+    block-size: 75px;
+    text-align: right;
+}
 #hi, #name, #about, #dev_info {
     color: #ffffff;
     block-size: 200px;
